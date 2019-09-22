@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm"/>
+<class name="Source">
+    
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doShow">
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Visual')" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Begin')" object-type="object"/>
+    </method>
+  <method name="doImageButtonBegin_informationMouseDownLeft">
+      <toast value="Разработал - Вартанян Владимир Сергеевич" value-type="string"/>
+      <sleep sync="" sync-type="" value="2500" value-type="integer"/>
+      <toast value="Автор содержимого первых двух занятий - Шепелев Максим Сергеевич" value-type="string"/>
+    </method>
+  </class>
+</root>

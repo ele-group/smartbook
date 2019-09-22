@@ -1,0 +1,229 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="128" prefWidth="880" styleClass="">
+  <children>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_1" layoutX="0" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_1" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_1" layoutX="8" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_1" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_2" layoutX="64" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_2" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_2" layoutX="72" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_2" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_3" layoutX="128" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_3" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_3" layoutX="136" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_3" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_4" layoutX="192" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_4" layoutX="200" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_4" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_5" layoutX="256" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_5" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_5" layoutX="264" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_5" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_6" layoutX="320" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_6" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_6" layoutX="328" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_6" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_7" layoutX="384" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_7" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_7" layoutX="392" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_7" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_8" layoutX="448" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_8" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_8" layoutX="456" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_8" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_9" layoutX="512" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_9" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_9" layoutX="520" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_9" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_10" layoutX="576" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_10" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_10" layoutX="584" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_10" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_11" layoutX="640" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_11" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_11" layoutX="648" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_11" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_12" layoutX="704" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_12" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_12" layoutX="712" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_12" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_13" layoutX="768" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_13" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_13" layoutX="776" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_13" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#2894a7" focusTraversable="false" height="48" id="rectMark_home_14" layoutX="832" layoutY="80" stroke="#2894a7" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_home_14" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_home_14" layoutX="840" layoutY="80" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_home_14" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_1" layoutX="0" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_1" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_1" layoutX="8" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_1" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_2" layoutX="64" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_2" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_2" layoutX="72" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_2" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_3" layoutX="128" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_3" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_3" layoutX="136" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_3" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_4" layoutX="192" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_4" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_4" layoutX="200" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_4" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_5" layoutX="256" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_5" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_5" layoutX="264" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_5" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_6" layoutX="320" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_6" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_6" layoutX="328" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_6" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_7" layoutX="384" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_7" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_7" layoutX="392" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_7" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_8" layoutX="448" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_8" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_8" layoutX="456" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_8" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_9" layoutX="512" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_9" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_9" layoutX="520" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_9" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_10" layoutX="576" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_10" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_10" layoutX="584" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_10" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_11" layoutX="640" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_11" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_11" layoutX="648" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_11" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_12" layoutX="704" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_12" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_12" layoutX="712" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_12" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_13" layoutX="768" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_13" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_13" layoutX="776" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_13" visible="1"/>
+    <Rectangle arcHeight="20" arcWidth="20" fill="#28a728" focusTraversable="false" height="48" id="rectMark_class_14" layoutX="832" layoutY="0" stroke="#28a728" strokeType="INSIDE" strokeWidth="2" styleClass="" width="48"/>
+    <Data cursor="DEFAULT" enabled="1" id="data-rectMark_class_14" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelMark_class_14" layoutX="840" layoutY="0" prefHeight="48" prefWidth="32" styleClass="label " text="?" textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="31"/>
+      </font>
+    </LabelEx>
+    <Data cursor="HAND" enabled="1" id="data-labelMark_class_14" visible="1"/>
+  </children>
+</AnchorPane>

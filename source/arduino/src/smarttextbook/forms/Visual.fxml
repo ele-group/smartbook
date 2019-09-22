@@ -1,0 +1,1015 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="900" prefWidth="1600" styleClass="">
+  <children>
+    <TabPaneEx focusTraversable="true" id="tabControl" layoutX="0" layoutY="0" prefHeight="900" prefWidth="1600" side="LEFT" styleClass="tab-pane " tabClosingPolicy="UNAVAILABLE">
+      <tabs>
+        <Tab text="Теория">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="900" prefWidth="1578" styleClass="">
+              <children>
+                <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabLesson" layoutX="8" layoutY="0" prefHeight="856" prefWidth="1555" style="&#10;-fx-background-color: #1a1a1a;" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                  <tabs>
+                    <Tab text="Введение">
+                      <content>
+                        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="821" prefWidth="1555" styleClass="">
+                          <children>
+                            <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabPage" layoutX="0" layoutY="0" prefHeight="800" prefWidth="1555" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                              <tabs>
+                                <Tab text="1">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_namePage_1" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Электрический ток " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_namePage_1" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_content_1" layoutX="448" layoutY="224" prefHeight="536" prefWidth="1032" styleClass="label " text="Электрический ток – упорядоченое движение заряженых частиц. Заряженые частицы – электроны, их заряд отрицательный. Электроны текут оттуда где их много, туда где их мало.&#10;&#10;Та точка в которой электронов больше всего, очевидно, будет иметь максимальный отрицательный заряд, такую точку называают Землей или GND (англ. Ground – земля) или еще – наименьшим потенциалом. &#10;&#10;Относительно этой точки все остальные участки положительные, то есть большие потенциалы. Мы будем называть такие точки питанием, а обозначать как непосредственное значение разности потенциалов. Например 5В.&#10;&#10;Ток течет от большего потенциала к меньшему. От питания к земеле. Таким образом за направление принимаеться движение положительного заряда, которое очевидно противоположено движению отрицательного заряда, то есть противопрложено направлению движения элеткронов." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_content_1" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="296" id="imageLesson_1_illustration_1" layoutX="56" layoutY="288" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="352">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_1_illustration_1" image=".data/img/current.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="2">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_namePage_2" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Физические величины " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_namePage_2" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_content_2" layoutX="80" layoutY="184" prefHeight="536" prefWidth="1032" styleClass="label " text="(U) Напряжение – разность значений потенциала в начальной и конечной точках траектории.&#10;Измеряется в Вольтах (рус. В) (англ. V).&#10; &#10;(I) Сила тока – количество заряда прошедшее через проводник за единицу времени.&#10;Измеряется в Амперах (А)&#10; &#10;(R) Сопротивление – свойство проводника препятствовать прохождению электрического тока.&#10;Измеряется в Омах (рус. Ом) (англ. Ohm) (символ Ω).&#10; &#10;(P) Мощность – величина скорости передачи или преобразования электрической энергии.&#10;Измеряется в Ваттах (рус. Вт) (англ. W).&#10; &#10;Закон Ома – эмпирический физический закон, определяющий связь электрического напряжения с силой тока, протекающего в проводнике, и сопротивлением проводника." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_content_2" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_rule_1" layoutX="264" layoutY="656" prefHeight="80" prefWidth="1032" styleClass="label " text="Сила тока в участке цепи прямо пропорциональна напряжению и обратно пропорциональна электрическому сопротивлению данного участка цепи.I = U / R." textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_rule_1" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="288" id="imageLesson_1_illustration_2" layoutX="1200" layoutY="264" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="288">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_1_illustration_2" image=".data/img/value.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="Видео">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="776" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <WebView focusTraversable="true" id="browserVideo_Lesson_1" layoutX="0" layoutY="0" prefHeight="776" prefWidth="1555"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-browserVideo_Lesson_1" url="https://www.youtube.com/embed/ZD1OTtnftC4?autohide=1&quot; frameborder=&quot;0&quot; allowfullscreen" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                              </tabs>
+                            </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                            <Data cursor="DEFAULT" enabled="1" id="data-tabPage" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectLesson_1_information_unavailable" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_1_information_unavailable" visible="1"/>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="768" id="rectLesson_1_information_unavailable" layoutX="0" layoutY="40" opacity="0" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1555"/>
+                            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_1_information_unavailable" layoutX="534" layoutY="368" opacity="0" prefHeight="128" prefWidth="488" styleClass="label " text="Информация недоступна." textAlignment="JUSTIFY" textFill="#f2f2f2" underline="false" wrapText="true">
+                              <font>
+                                <Font name="Segoe UI" size="24"/>
+                              </font>
+                            </LabelEx>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </Tab>
+                    <Tab text="Алгоритмы управления светодиодами">
+                      <content>
+                        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="822" prefWidth="1555" styleClass="">
+                          <children>
+                            <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabPage_2" layoutX="0" layoutY="0" prefHeight="800" prefWidth="1555" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                              <tabs>
+                                <Tab text="1">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_1" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Резистор" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_1" layoutX="448" layoutY="224" prefHeight="536" prefWidth="1032" styleClass="label " text="Резистор – пассивный элемент электрических цепей, обладающий определённым значением электрического сопротивления, предназначенный для линейного преобразования, ограничения тока, поглощения электрической энергии и д.р.&#10; &#10;На электронно принципиальных схемах встречаются два обозначения: прямоугольное и зигзагообразное, первое встречается в европейской и русской литературе, второе в американской. В рамках курса мы будем использовать прямоугольное обозначение.&#10; &#10;На классических резисторах не написано, какое у них сопротивление, на них это нарисовано. Цвет и позиция полосок олицетворяют номинал резистора. Ничего сложного в этом способе кодирования нет, если есть желание можно разобраться с процессом на любом из сайтов калькуляторов." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="224" id="imageLesson_2_illustration_1" layoutX="112" layoutY="272" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="224">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_1" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_1" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_1" image=".data/img/resistor.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="2">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_2" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Светодиод" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_2" layoutX="80" layoutY="184" prefHeight="536" prefWidth="1032" styleClass="label " text="Диод – электронный элемент, обладающий различной проводимостью в зависимости от направления электрического тока. То есть: проводит ток только в одну сторону&#10; &#10;Светодиод – полупроводниковый прибор, создающий оптическое излучение при пропускании через него электрического тока в прямом направлении.&#10; &#10;Светодиоду важно какой стороной его устанавливают в схеме, ток в нем будет течь только если Анод подключен к питанию, а Катод к земле. Запомнить где у светодиода Анод, а где Катод просто.&#10;&#10;&#10;&#10;&#10;&#10;&#10;Светодиод пытается превратить в свет, весь ток что через него проходит. Побочным продуктом свечения является выделение тепла. Таким образом если тока будет много, будет много света, будет много тепла. А если будет слишком много тепла, то светодиод – сгорит. Поэтому важно этот процесс контролировать. Необходимо ограничить ток." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <LabelEx alignment="TOP_CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_rule_1" layoutX="264" layoutY="488" prefHeight="80" prefWidth="1032" styleClass="label " text="Катод – Короткая ножка – Куда течет ток.&#10;Ток течет от питания к земле. Катод подключается к земле." textAlignment="CENTER" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="224" id="imageLesson_2_illustration_2" layoutX="1168" layoutY="280" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="320">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_2" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_2" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_rule_1" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_2" image=".data/img/luminodiode.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="3">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="768" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_3" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Макетная плата " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_3" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="296" id="imageLesson_2_illustration_3" layoutX="88" layoutY="200" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="424">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_3" image=".data/img/bread board.png" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_3" layoutX="552" layoutY="168" prefHeight="376" prefWidth="920" styleClass="label " text="Макетная палата применяется для разработки прототипов электронных устройств. Благодаря макетной плате нам не нужно использовать паяльник для соединения электронных компонентов.&#10; &#10;Под пластиковым корпусом макетной платы, находятся металлические зажимы, которые и соединяют между собой провода и электронныекомпоненты, которые вставляются в отверстия.&#10; &#10;По обоим краям макетной платы, располагаются два длинных сегмента (по два с каждого края) помеченные символами (+) и (-), а так же полосами красного и синего (иногда черного) цвета. Таким образом, подключая провод в любое из отверстий на линии, с одной из сторон макетной платы, мы соединяем его со всеми отверстиями этой линии, на этой стороне." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_3" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_3_2" layoutX="72" layoutY="584" prefHeight="184" prefWidth="1424" styleClass="label " text="Линии на противоположенных краях платы не соединены друг с другом. То есть подсоединяя провод к отверстию линии (+) на одной стороне, мы не соединяем его с проводами линии (+) другой стороны.&#10; &#10;По центу платы, в два ряда, располагаются сегменты объединяющие отверстия в группы, по пять, попрек макетной платы. Каждая группа независима, то есть не соединена ни с одной из других групп. &#10; " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_3_2" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="4">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_4" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Подключение светодиода " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_4" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="432" id="imageLesson_2_illustration_4" layoutX="88" layoutY="240" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="344">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_4" image=".data/img/connect.png" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_4" layoutX="496" layoutY="192" prefHeight="536" prefWidth="984" styleClass="label " text="Чтобы светодиод не сгорел, его необходимо подключать через резистор, который будет за счет повышения сопротивления в цепи ограничивать ток. Среди технических характеристик любого светодиода, можно найти две очень важные: рекомендуемый ток (U падения) проходящий через светодиод и значение падения напряжения (I питания) на светодиоде. &#10;&#10;Для основной массы индикационных светодиодов применяемых в цифровой технике (тех что используются для индикации, а не для освещения) и в том числе тех что будем использовать мы, эти значения примерно следующие:&#10;U падения = 2 В&#10;I питания   = 20 мA&#10;А так как наш микроконтроллер будет подавать на светодиод:&#10;U питания = 5 В&#10;То согласно закону Ома:&#10;R = U / I&#10;R = (Uпитания - Uпадения) / Iпитания&#10;R = (5 - 2) / 0.02&#10;R = 150 Ом&#10;&#10;Резистор такого номинала (150 Ом) будет иметь: коричневую, зеленую, коричневую, золотую полоски на своём корпусе. Не важно, к какой из ножек светодиода, к катоду или к аноду, будет подключен резистор. Важно что бы он был. Красивая и элегантная схема подключения светодиода изображена на картинке выше." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="20"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_4" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="5">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_5" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Структура программы " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_5" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_5" layoutX="80" layoutY="184" prefHeight="560" prefWidth="1400" styleClass="label " text="Программируются платы Arduino на языке C++ немного специализированным для более удобного программирования именно микроконтроллеров. Мы будем изучать язык аккуратно и очень постепенно, при этом достаточно быстро но не слишком углубляясь в тонкости, что бы всё успеть.&#10;&#10;Начнем с того как мы будем писать код. Минимальная программа для Arduino выглядит следующим образом:&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Процедура setup – точка входа в программу, код написанный внутри неё выполнится всего один раз, сразу же после старта микроконтроллера. Как правило там располагается код отвечающий за настройку вашего устройства. &#10;&#10;Процедура loop – код написанный внутри неё будет выполняться в бесконечном цикле до тех пор пока мы не отключим питание от платы микроконтроллера. В ней как правило располагается основной код вашей программы." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_5" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="216" id="imageLesson_2_illustration_5" layoutX="470" layoutY="344" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="616">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_5" image=".data/img/structure.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="6">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_6" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Функции " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_6" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_6" layoutX="80" layoutY="184" prefHeight="560" prefWidth="1400" styleClass="label " text="На текущий момент, что бы создать интересные программы со светодиодами, нам потребуются только три функции. &#10;&#10;Функция pinMode(&lt;порт&gt;, &lt;направление&gt;) – настаивает ножку микроконтроллера с номером &lt;порт&gt;, как вход (&lt;направление&gt; = INPUT) или как выход (&lt;направление&gt; = OUTPUT). Вход – позволяет считывать значения с ножки микроконтроллера, например для того, что подключить к нему кнопку. Выход – позволяет управлять нагрузкой на ножке микроконтроллера, например, зажигать светодиод.&#10;&#10;Функция digitalWrite(&lt;порт&gt;, &lt;состояние&gt;) – подключает ножку микроконтроллера с номером &lt;порт&gt;, либо к 5В (&lt;состояние&gt; = HIGH) таким образом например включая светодиод, либо к GND (&lt;состояние&gt; = LOW) таким образом выключая светодиод.&#10;&#10;Функция delay(&lt;время&gt;) – останавливает выполнение программы на указанное &lt;время&gt;. Время указывается в миллисекундах. Напомню в 1 секунде 1000 миллисекунд. В будущем мы откажемся от её использования, но пока можно." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_6" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="7">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_7" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Первая программа " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_7" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_7" layoutX="80" layoutY="184" prefHeight="560" prefWidth="1400" styleClass="label " text="Как правило первая программа любого программиста на новом для него языке программирования, выводит на экран фразу «Hello, World!». У программистов электронщиков такая программа как правило мигает светодиодом. Кажется всё что для этого нужно у нас уже есть – поехали!&#10; &#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;&#10;Прежде всего: настраиваем ножку к которой подключен светодиод как выход (строка 2). Это достаточно сделать один раз и как раз в самом начале программы, помещаем этот код в процедуру setup.&#10;&#10;Алгоритм мигания прост: включаем светодиод (6), ждем одну секунду (7), выключаем светодиод (8), ждём одну секунду (9), а далее цикл loop начинается снова." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_7" visible="1"/>
+                                        <ImageViewEx autoSize="false" centered="true" focusTraversable="false" height="272" id="imageLesson_2_illustration_6" layoutX="634" layoutY="280" mosaic="false" mosaicGap="0" proportional="true" stretch="true" styleClass="" textFill="#000000" width="288">
+                                          <font>
+                                            <Font name="System Regular" size="12"/>
+                                          </font>
+                                        </ImageViewEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-imageLesson_2_illustration_6" image=".data/img/blink.png" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="8">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_namePage_8" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Синтаксис языка " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_namePage_8" visible="1"/>
+                                        <LabelEx alignment="TOP_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_content_8" layoutX="80" layoutY="184" prefHeight="560" prefWidth="1400" styleClass="label " text="Обратите внимание на точки с запятой в конце каждой строки, за исключением строк с фигурными скобками. В языке C++ это обязательный атрибут конца строки, если её не написать программа не скомпилируется и выдаст ошибку.&#10;&#10;Так же обратите внимание на прописные и заглавные буквы, язык C++ регистрозаивсимый. То есть важен регистр букв, заглавная буква или прописная. Всё что пишется заглавными нужно писать заглавными.&#10;&#10;Для повышения читаемости кода, большинство программистов воспитало в себе правило: если один фрагмент кода логически вложен в другой, то его нужно писать на один или несколько символов пробела или табулции дальше от начала строки чем предыдущий уровень.&#10;&#10;В случае с Arduino, используется либо 1 символ табуляции либо 2 пробела. При этом среда программировнаия по умолчанию Arduino IDE автомтически преобразует символ табуляции в 2 пробела. &#10;&#10;Обратите внимание на строки 2, 6, 7, 8, 9 примера выше. Строка 2 – вложена в процедуру setup, 6, 7, 8, 9 – вложены в loop. Благодаря отступам это видно сразу, невооруженным взглядом." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_content_8" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="Видео">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="776" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <WebView focusTraversable="true" id="browserVideo_Lesson_2" layoutX="0" layoutY="0" prefHeight="776" prefWidth="1555"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-browserVideo_Lesson_2" url="https://www.youtube.com/embed/5U5p5UFYUGA?autohide=1%22%20frameborder=%220%22%20allowfullscreen" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                              </tabs>
+                            </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                            <Data cursor="DEFAULT" enabled="1" id="data-tabPage_2" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectLock_Lesson_2" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-imageLock_Lesson_2" image=".data/img/lock.png" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectLesson_2_information_unavailable" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-labelLesson_2_information_unavailable" visible="1"/>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="784" id="rectLesson_2_information_unavailable" layoutX="0" layoutY="38" opacity="0" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1552"/>
+                            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelLesson_2_information_unavailable" layoutX="534" layoutY="368" opacity="0" prefHeight="128" prefWidth="488" styleClass="label " text="Информация недоступна." textAlignment="JUSTIFY" textFill="#f2f2f2" underline="false" wrapText="true">
+                              <font>
+                                <Font name="Segoe UI" size="24"/>
+                              </font>
+                            </LabelEx>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="776" id="rectLock_Lesson_2" layoutX="0" layoutY="38" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1552"/>
+                            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="imageLock_Lesson_2" layoutX="728" layoutY="361" mosaic="false" mosaicGap="0" opacity="0.9" proportional="true" stretch="true" styleClass="" textFill="#000000" width="100">
+                              <font>
+                                <Font name="System Regular" size="12"/>
+                              </font>
+                            </ImageViewEx>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </Tab>
+                  </tabs>
+                </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                <Data cursor="DEFAULT" enabled="1" id="data-tabLesson" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Задания">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="900" prefWidth="1578" styleClass="">
+              <children>
+                <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabExample" layoutX="8" layoutY="0" prefHeight="856" prefWidth="1555" style="&#10;-fx-background-color: #1a1a1a;" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                  <tabs>
+                    <Tab text="Введение">
+                      <content>
+                        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="817" prefWidth="1555" styleClass="">
+                          <children>
+                            <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabType" layoutX="0" layoutY="0" prefHeight="800" prefWidth="1555" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                              <tabs>
+                                <Tab text="Классная работа">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_namePage_1" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Электрический ток " textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_namePage_1" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_1_Text_1" layoutX="232" layoutY="184" prefHeight="40" prefWidth="472" styleClass="label " text="1. Электрическим током называют" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_1_Text_1" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_1_Box_1" layoutX="272" layoutY="248" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="движение заряженных частиц"/>
+                                              <String fx:value="направленное движение частиц"/>
+                                              <String fx:value="упорядоченое движение заряженных частиц"/>
+                                              <String fx:value="направленное движение электронов"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_1_Box_1" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_1_Text_2" layoutX="232" layoutY="328" prefHeight="40" prefWidth="472" styleClass="label " text="2. Что такое электрон?" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_1_Text_2" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_1_Box_2" layoutX="272" layoutY="392" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="отрицательно заряженная частица"/>
+                                              <String fx:value="положительно заряженная частица"/>
+                                              <String fx:value="незаряженная частица"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_1_Box_2" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_1_Text_3" layoutX="232" layoutY="472" prefHeight="40" prefWidth="1160" styleClass="label " text="3. Ту точка в которой электронов больше всего называют" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_1_Text_3" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_1_Box_3" layoutX="272" layoutY="536" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="питанием (5V, +)"/>
+                                              <String fx:value="землей (GND, -)"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_1_Box_3" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_1_Text_4" layoutX="232" layoutY="616" prefHeight="40" prefWidth="472" styleClass="label " text="4. Как течёт ток?" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_1_Text_4" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_1_Box_4" layoutX="272" layoutY="680" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="от большего потенциала к меньшему, от питания к земеле"/>
+                                              <String fx:value="от меньшего потенциала к большему, от земли к питанию"/>
+                                              <String fx:value="от большего потенциала к меньшему, от земли к питанию"/>
+                                              <String fx:value="от меньшего потенциала к большему, от питания к земеле"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_1_Box_4" visible="1"/>
+                                        <Data cursor="HAND" enabled="1" id="data-buttonExample_Lesson_1_Done_1" visible="1"/>
+                                        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_Lesson_1_Done_1" layoutX="1296" layoutY="680" prefHeight="32" prefWidth="144" styleClass="button " text="Готово" textAlignment="CENTER" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="20"/>
+                                          </font>
+                                        </Button>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="Домашняя работа">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_namePage_2" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Физические величины" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_namePage_2" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_2_Text_1" layoutX="448" layoutY="168" prefHeight="104" prefWidth="840" styleClass="label " text="– разность значений потенциала в начальной и конечной точках траектории. Измеряется в Вольтах (рус. В) (англ. V)." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_2_Text_1" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_2_Box_1" layoutX="272" layoutY="192" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="(R) Сопротивление"/>
+                                              <String fx:value="(I) Сила тока"/>
+                                              <String fx:value="(U) Напряжение"/>
+                                              <String fx:value="(P) Мощность"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_2_Box_1" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_2_Box_2" layoutX="272" layoutY="312" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="(R) Сопротивление"/>
+                                              <String fx:value="(I) Сила тока"/>
+                                              <String fx:value="(U) Напряжение"/>
+                                              <String fx:value="(P) Мощность"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_2_Box_2" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_2_Text_2" layoutX="448" layoutY="288" prefHeight="104" prefWidth="888" styleClass="label " text="– количество заряда прошедшее через проводник за единицу времени. Измеряется в Амперах (А)" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_2_Text_2" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_2_Text_3" layoutX="448" layoutY="400" prefHeight="104" prefWidth="840" styleClass="label " text="– свойство проводника препятствовать прохождению электрического тока. Измеряется в Омах (рус. Ом) (англ. Ohm) (символ Ω)." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_2_Text_3" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_2_Box_3" layoutX="272" layoutY="424" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="(R) Сопротивление"/>
+                                              <String fx:value="(I) Сила тока"/>
+                                              <String fx:value="(U) Напряжение"/>
+                                              <String fx:value="(P) Мощность"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_2_Box_3" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_1_exercise_page_2_Box_4" layoutX="272" layoutY="536" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="(R) Сопротивление"/>
+                                              <String fx:value="(I) Сила тока"/>
+                                              <String fx:value="(U) Напряжение"/>
+                                              <String fx:value="(P) Мощность"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_1_exercise_page_2_Box_4" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_exercise_page_2_Text_4" layoutX="448" layoutY="512" prefHeight="104" prefWidth="840" styleClass="label " text="– величина скорости передачи или преобразования электрической энергии. Измеряется в Ваттах (рус. Вт) (англ. W)." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_exercise_page_2_Text_4" visible="1"/>
+                                        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_Lesson_1_Done_2" layoutX="1296" layoutY="680" prefHeight="32" prefWidth="144" styleClass="button " text="Готово" textAlignment="CENTER" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="20"/>
+                                          </font>
+                                        </Button>
+                                        <Data cursor="HAND" enabled="1" id="data-buttonExample_Lesson_1_Done_2" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                              </tabs>
+                            </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                            <Data cursor="DEFAULT" enabled="1" id="data-tabType" visible="1"/>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="776" id="rectExample_1_information_to_start" layoutX="0" layoutY="40" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1552"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectExample_1_information_to_start" visible="1"/>
+                            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_1_information_to_start" layoutX="546" layoutY="328" prefHeight="128" prefWidth="464" styleClass="label " text="После того, как Вы приступите к выполнению работы, теория станет недоступной." textAlignment="JUSTIFY" textFill="#f2f2f2" underline="false" wrapText="true">
+                              <font>
+                                <Font name="Segoe UI" size="23"/>
+                              </font>
+                            </LabelEx>
+                            <Data cursor="DEFAULT" enabled="1" id="data-labelExample_1_information_to_start" visible="1"/>
+                            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_1_information_to_start" layoutX="694" layoutY="472" prefHeight="40" prefWidth="168" styleClass="button test " text="Приступить" textAlignment="CENTER" underline="false" wrapText="false">
+                              <font>
+                                <Font name="Segoe UI" size="20"/>
+                              </font>
+                            </Button>
+                            <Data cursor="HAND" enabled="1" id="data-buttonExample_1_information_to_start" visible="1"/>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </Tab>
+                    <Tab text="Алгоритмы управления светодиодами">
+                      <content>
+                        <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="817" prefWidth="1555" styleClass="">
+                          <children>
+                            <org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed focusTraversable="true" id="tabType_2" layoutX="0" layoutY="0" prefHeight="800" prefWidth="1555" styleClass="jfx-tab-pane " tabClosingPolicy="SELECTED_TAB">
+                              <tabs>
+                                <Tab text="Классная работа">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_namePage_1" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Программирование" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_Lesson_2_Done_1" layoutX="1296" layoutY="680" prefHeight="32" prefWidth="144" styleClass="button " text="Готово" textAlignment="CENTER" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="20"/>
+                                          </font>
+                                        </Button>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_namePage_1" visible="1"/>
+                                        <Data cursor="HAND" enabled="1" id="data-buttonExample_Lesson_2_Done_1" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-areaEleCodeExample_2_exercise_page_1_Box_1" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_exercise_page_1_Text_1" layoutX="272" layoutY="176" prefHeight="96" prefWidth="1080" styleClass="label " text="Написать программу управляющую светодиодами в соответствии со следующим сценарием: светодиоды горят поочередно, с задержкой между переключениями в 1 секунду. Светодиоды подключены ко второму цифровому порту." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_exercise_page_1_Text_1" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelEleCode_ele_code_lesson_2" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelEleCode_powered_by_lesson_2" visible="1"/>
+                                        <TextArea editable="true" focusTraversable="true" id="areaEleCodeExample_2_exercise_page_1_Box_1_true" layoutX="328" layoutY="304" prefColumnCount="40" prefHeight="408" prefWidth="904" promptText="" styleClass="text-input text-area " text="void setup() {&#10;&#9;pinMode(2, OUTPUT);&#10;}&#10; &#10;void loop() {&#10;&#9;digitalWrite(2, HIGH);&#10;&#9;delay(1000);&#10;&#9;digitalWrite(2, LOW);&#10;&#9;delay(1000);&#10;}" wrapText="false">
+                                          <font>
+                                            <Font name="Courier New" size="20"/>
+                                          </font>
+                                        </TextArea>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-areaEleCodeExample_2_exercise_page_1_Box_1_true" visible="1"/>
+                                        <TextArea editable="true" focusTraversable="true" id="areaEleCodeExample_2_exercise_page_1_Box_1" layoutX="328" layoutY="304" prefColumnCount="40" prefHeight="408" prefWidth="904" promptText="" styleClass="text-input text-area " text="void setup() {&#10;&#9;pinMode(?, ?);&#10;}&#10; &#10;void loop() {&#10;&#9;&#10;&#9;delay(?);&#10;&#9;&#10;&#9;delay(?);&#10;}" wrapText="false">
+                                          <font>
+                                            <Font name="Courier New" size="20"/>
+                                          </font>
+                                        </TextArea>
+                                        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelEleCode_powered_by_lesson_2" layoutX="956" layoutY="660" prefHeight="40" prefWidth="160" styleClass="label " text="powered by" textAlignment="CENTER" textFill="#999999" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="16"/>
+                                          </font>
+                                        </LabelEx>
+                                        <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelEleCode_ele_code_lesson_2" layoutX="1056" layoutY="656" prefHeight="40" prefWidth="160" styleClass="label " text="Ele Code" textAlignment="CENTER" textFill="#999999" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                                <Tab text="Домашняя работа">
+                                  <content>
+                                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="761" prefWidth="1555" styleClass="">
+                                      <children>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_namePage_2" layoutX="120" layoutY="88" prefHeight="40" prefWidth="472" styleClass="label " text="Тестирование" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="27"/>
+                                          </font>
+                                        </LabelEx>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_exercise_page_2_Text_1" layoutX="448" layoutY="168" prefHeight="104" prefWidth="840" styleClass="label " text="– пассивный элемент электрических цепей, обладающий определённым значением электрического сопротивления." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_2_exercise_page_2_Box_1" layoutX="272" layoutY="192" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="Резистор"/>
+                                              <String fx:value="Макетная плата"/>
+                                              <String fx:value="Светодиод"/>
+                                              <String fx:value="Диод"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_2_exercise_page_2_Box_2" layoutX="272" layoutY="312" prefHeight="32" prefWidth="160" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="Резистор"/>
+                                              <String fx:value="Макетная плата"/>
+                                              <String fx:value="Светодиод"/>
+                                              <String fx:value="Диод"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_exercise_page_2_Text_2" layoutX="448" layoutY="288" prefHeight="104" prefWidth="888" styleClass="label " text="– полупроводниковый прибор, создающий оптическое излучение при пропускании через него электрического тока в прямом направлении." textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="true">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_Lesson_2_Done_2" layoutX="1296" layoutY="680" prefHeight="32" prefWidth="144" styleClass="button " text="Готово" textAlignment="CENTER" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="20"/>
+                                          </font>
+                                        </Button>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_namePage_2" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_exercise_page_2_Text_1" visible="1"/>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_2_exercise_page_2_Box_1" visible="1"/>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_2_exercise_page_2_Box_2" visible="1"/>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_exercise_page_2_Text_2" visible="1"/>
+                                        <Data cursor="HAND" enabled="1" id="data-buttonExample_Lesson_2_Done_2" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_exercise_page_2_Text_3" layoutX="272" layoutY="424" prefHeight="40" prefWidth="912" styleClass="label " text="Какой символ находится в конце каждой строки?" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_exercise_page_2_Text_3" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_2_exercise_page_2_Box_3" layoutX="312" layoutY="488" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value=";"/>
+                                              <String fx:value=":"/>
+                                              <String fx:value="{"/>
+                                              <String fx:value="}"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_2_exercise_page_2_Box_3" visible="1"/>
+                                        <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_exercise_page_2_Text_4" layoutX="272" layoutY="576" prefHeight="40" prefWidth="472" styleClass="label " text="Что делает функция pinMode?" textAlignment="LEFT" textFill="#f2f2f2" underline="false" wrapText="false">
+                                          <font>
+                                            <Font name="Segoe UI" size="23"/>
+                                          </font>
+                                        </LabelEx>
+                                        <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_exercise_page_2_Text_4" visible="1"/>
+                                        <ComboBox editable="false" focusTraversable="true" id="labelExample_2_exercise_page_2_Box_4" layoutX="312" layoutY="640" prefHeight="32" prefWidth="600" promptText="" styleClass="combo-box-base combo-box " value="не указано" visibleRowCount="10">
+                                          <items xmlns:fx="http://javafx.com/fxml">
+                                            <FXCollections fx:factory="observableArrayList">
+                                              <String fx:value="такой функции не существует"/>
+                                              <String fx:value="подключает ножку микроконтроллера"/>
+                                              <String fx:value="упорядоченое движение заряженных частиц"/>
+                                              <String fx:value="настраивает ножку микроконтроллера"/>
+                                            </FXCollections>
+                                          </items>
+                                        </ComboBox>
+                                        <Data cursor="TEXT" enabled="1" id="data-labelExample_2_exercise_page_2_Box_4" visible="1"/>
+                                      </children>
+                                    </AnchorPane>
+                                  </content>
+                                </Tab>
+                              </tabs>
+                            </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                            <Data cursor="DEFAULT" enabled="1" id="data-tabType_2" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectLock_Example_2" visible="1"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-imageLock_Example_2" image=".data/img/lock.png" visible="1"/>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="776" id="rectExample_2_information_to_start" layoutX="0" layoutY="40" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1552"/>
+                            <Data cursor="DEFAULT" enabled="1" id="data-rectExample_2_information_to_start" visible="1"/>
+                            <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelExample_2_information_to_start" layoutX="546" layoutY="328" prefHeight="128" prefWidth="464" styleClass="label " text="После того, как Вы приступите к выполнению работы, теория станет недоступной." textAlignment="JUSTIFY" textFill="#f2f2f2" underline="false" wrapText="true">
+                              <font>
+                                <Font name="Segoe UI" size="23"/>
+                              </font>
+                            </LabelEx>
+                            <Data cursor="DEFAULT" enabled="1" id="data-labelExample_2_information_to_start" visible="1"/>
+                            <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonExample_2_information_to_start" layoutX="694" layoutY="472" prefHeight="40" prefWidth="168" styleClass="button test " text="Приступить" textAlignment="CENTER" underline="false" wrapText="false">
+                              <font>
+                                <Font name="Segoe UI" size="20"/>
+                              </font>
+                            </Button>
+                            <Data cursor="HAND" enabled="1" id="data-buttonExample_2_information_to_start" visible="1"/>
+                            <Rectangle arcHeight="0" arcWidth="0" fill="#1a1a1a" focusTraversable="false" height="776" id="rectLock_Example_2" layoutX="0" layoutY="40" stroke="#1a1a1a" strokeType="INSIDE" strokeWidth="2" styleClass="" width="1552"/>
+                            <ImageViewEx autoSize="false" centered="false" focusTraversable="false" height="100" id="imageLock_Example_2" layoutX="728" layoutY="361" mosaic="false" mosaicGap="0" opacity="0.9" proportional="true" stretch="true" styleClass="" textFill="#000000" width="100">
+                              <font>
+                                <Font name="System Regular" size="12"/>
+                              </font>
+                            </ImageViewEx>
+                          </children>
+                        </AnchorPane>
+                      </content>
+                    </Tab>
+                  </tabs>
+                </org.develnext.jphp.ext.javafx.jfoenix.support.JFXTabPaneFixed>
+                <Data cursor="DEFAULT" enabled="1" id="data-tabExample" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Оценки">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="900" prefWidth="1580" styleClass="">
+              <children>
+                <com.jfoenix.controls.JFXDatePicker defaultColor="#009688" editable="true" focusTraversable="true" id="dateEdit" layoutX="1418" layoutY="0" overLay="false" prefHeight="32" prefWidth="144" promptText="" showWeekNumbers="false">
+                  <styleClass xmlns:fx="http://javafx.com/fxml">
+                    <String fx:value="combo-box-base"/>
+                    <String fx:value="date-picker"/>
+                    <String fx:value="jfx-date-picker"/>
+                  </styleClass>
+                </com.jfoenix.controls.JFXDatePicker>
+                <Data cursor="DEFAULT" enabled="1" format="dd.MM.yyyy" id="data-dateEdit" value="" visible="1"/>
+                <LabelEx alignment="CENTER_LEFT" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelAchievement" layoutX="160" layoutY="120" prefHeight="34" prefWidth="392" styleClass="label " text="Успеваемость" textAlignment="LEFT" textFill="#000000" underline="false" wrapText="false">
+                  <font>
+                    <Font name="Segoe UI" size="28"/>
+                  </font>
+                </LabelEx>
+                <Data cursor="DEFAULT" enabled="1" id="data-labelAchievement" visible="1"/>
+                <GamePane backgroundColor="#1a1a1a" borderColor="#c0c0c0" borderRadius="0" borderStyle="SOLID" borderWidth="0" focusTraversable="false" id="fragmentAchievement" layoutX="296" layoutY="256" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="128" prefWidth="880" styleClass="without-focus " titleColor="#000000" titleOffset="15" titlePosition="TOP_LEFT">
+                  <titleFont>
+                    <Font name="System Regular" size="12"/>
+                  </titleFont>
+                  <children>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                    <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="0" prefWidth="0" styleClass="">
+                      <children/>
+                    </AnchorPane>
+                  </children>
+                </GamePane>
+                <Data cursor="DEFAULT" enabled="1" id="data-fragmentAchievement" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+        <Tab text="Tinkercad">
+          <content>
+            <AnchorPane focusTraversable="false" id="" maxHeight="-1" maxWidth="-1" minHeight="-1" minWidth="-1" prefHeight="900" prefWidth="1578" styleClass="">
+              <children>
+                <WebView focusTraversable="true" id="browser" layoutX="8" layoutY="0" prefHeight="856" prefWidth="1555"/>
+                <Data contextMenuEnabled="" cursor="DEFAULT" enabled="1" id="data-browser" url="https://123dapp.com/circuits" visible="1"/>
+              </children>
+            </AnchorPane>
+          </content>
+        </Tab>
+      </tabs>
+    </TabPaneEx>
+    <ProgressBar focusTraversable="false" id="progressKnowledge" layoutX="3" layoutY="872" prefHeight="24" prefWidth="144" progress="0.5" styleClass="progress-bar "/>
+    <Data cursor="DEFAULT" enabled="1" id="data-progressKnowledge" visible="1"/>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelInfo" layoutX="144" layoutY="864" prefHeight="32" prefWidth="1456" styleClass="label " text="Ученик %фамилия% %имя%" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="17"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelInfo" visible="1"/>
+    <Data cursor="DEFAULT" draggable="NONE" enabled="1" id="data-tabControl" visible="1"/>
+  </children>
+</AnchorPane>

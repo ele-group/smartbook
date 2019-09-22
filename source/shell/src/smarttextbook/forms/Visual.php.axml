@@ -1,0 +1,42 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Visual">
+    
+  
+  
+  
+  
+  <method name="doButtonBeginMouseDownL">
+      <toast value="Приложение отсутствует" value-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doCollideCheckMouseEn">
+      <behaviourEnable behaviour="behaviour\custom\PulseAnimationBehaviour" behaviour-type="string" object="labelName" object-type="object"/>
+    </method>
+  <method name="doCollideCheckMouseE">
+      <behaviourDisable behaviour="behaviour\custom\PulseAnimationBehaviour" behaviour-type="string" object="labelName" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  <method name="doShow">
+      <moveTo continue="" continue-type="" duration="1000" duration-type="integer" object="labelName" object-type="object" x="228" x-type="float" y="256" y-type="float"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="editTextbook" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="buttonBegin" object-type="object"/>
+      <displace continue="" continue-type="" duration="400" duration-type="integer" object="labelName" object-type="object" x="0" x-type="float" y="-15" y-type="float"/>
+      <displace continue="" continue-type="" duration="400" duration-type="integer" object="labelName" object-type="object" x="0" x-type="float" y="15" y-type="float"/>
+    </method>
+  </class>
+</root>

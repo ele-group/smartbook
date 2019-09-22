@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelBegin_Hello" layoutX="408" layoutY="208" prefHeight="40" prefWidth="472" styleClass="label " text="Привет," textAlignment="CENTER" textFill="#1a1a1a" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="32"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelBegin_Hello" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonBegin_Done" layoutX="568" layoutY="464" prefHeight="32" prefWidth="144" styleClass="button " text="Готово" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="20"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-buttonBegin_Done" visible="1"/>
+    <TextField alignment="CENTER" editable="true" focusTraversable="true" id="editBegin_Name" layoutX="544" layoutY="339" prefColumnCount="12" prefHeight="40" prefWidth="192" promptText="Ваше имя" styleClass="text-input text-field " text="">
+      <font>
+        <Font name="Segoe UI" size="21"/>
+      </font>
+    </TextField>
+    <Data cursor="DEFAULT" enabled="1" id="data-editBegin_Name" visible="1"/>
+  </children>
+</AnchorPane>

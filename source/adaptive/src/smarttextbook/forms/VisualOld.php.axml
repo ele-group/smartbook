@@ -1,0 +1,270 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Visual">
+    
+  
+  
+  
+  
+  
+  
+  <method name="doButtonExample_Lesson_1_Done_1MouseDownL">
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+    </method>
+  <method name="doButtonExample_Lesson_1_Done_3MouseDownL">
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonExample_Lesson_2_Done_1MouseDownL">
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_1" object-type="object" string="упорядоченое движение заряженных частиц" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_2" object-type="object" string="отрицательно заряженная частица" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_3" object-type="object" string="землей (GND, -)" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_4" object-type="object" string="от большего потенциала к меньшему, от питания к земеле" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <elementSetText object="form('Achievement')-&gt;labelMark_class_1" object-type="object" relative="" relative-type="" value="assessmentLesson_class_1" value-type="score"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('Lesson_class_1',$this-&gt;form('Achievement')-&gt;labelMark_class_1-&gt;text,'assessment');" expr-type="expr"/>
+    </method>
+    <method name="doButtonExample_Lesson_2_Done_2MouseDownL">
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_1" object-type="object" string="(U) Напряжение" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_2" object-type="object" string="(I) Сила тока" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_3" object-type="object" string="(R) Сопротивление" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_4" object-type="object" string="(P) Мощность" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <elementSetText object="form('Achievement')-&gt;labelMark_home_1" object-type="object" relative="" relative-type="" value="assessmentLesson_home_1" value-type="score"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('Lesson_home_1',$this-&gt;form('Achievement')-&gt;labelMark_home_1-&gt;text,'assessment');" expr-type="expr"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doButtonExample_1_information_to_startMouseDownL">
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="rectAlt" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="labelAlt" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="button" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="label" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="rect" object-type="object"/>
+      <jumpingTo object="rect" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="button" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="label" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doClose">
+      <phpLine expr="$this-&gt;ini-&gt;set('Progress',$this-&gt;progressKnowledge-&gt;progress,'information')" expr-type="expr"/>
+    <phpLine expr="$this-&gt;ini-&gt;set('Name',$this-&gt;form('Visual')-&gt;labelInfo-&gt;text,'information')" expr-type="expr"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  <method name="doKeyDownZ">
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_1" object-type="object" string="(U) Напряжение" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_2" object-type="object" string="(I) Сила тока" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_3" object-type="object" string="(R) Сопротивление" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_2_Box_4" object-type="object" string="(P) Мощность" string-type="string"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <elementSetText object="form('Achievement')-&gt;labelMark_home_1" object-type="object" relative="" relative-type="" value="assessmentLesson_home_1" value-type="score"/>
+      <ifScore method="smaller" method-type="" name="assessmentLesson_home_1" name-type="string" not="" not-type="" value="3" value-type="integer"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="1" relative-type="" value="-5" value-type="integer"/>
+      <phpLine expr="$this-&gt;progressKnowledge-&gt;progress += Score::get('assessmentLesson_home_1');" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('Lesson_home_1',$this-&gt;form('Achievement')-&gt;labelMark_home_1-&gt;text,'assessment');" expr-type="expr"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="labelLesson_1_information_unavailable" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="rectLesson_1_information_unavailable" object-type="object"/>
+      <jumpingToStart object="rectExample_1_information_to_start" object-type="object"/>
+      <jumpingToStart object="labelExample_1_information_to_start" object-type="object"/>
+      <jumpingToStart object="buttonExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="rectExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="labelExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="buttonExample_1_information_to_start" object-type="object"/>
+      <ifScore method="greater" method-type="" name="assessmentLesson_home_1" name-type="string" not="" not-type="" value="2" value-type="integer"/>
+      <elementDestroy object="rectLock_Lesson_2" object-type="object"/>
+      <ifScore method="greater" method-type="" name="assessmentLesson_home_1" name-type="string" not="" not-type="" value="2" value-type="integer"/>
+      <elementDestroy object="imageLock_Lesson_2" object-type="object"/>
+      <ifScore method="greater" method-type="" name="assessmentLesson_home_1" name-type="string" not="" not-type="" value="2" value-type="integer"/>
+      <elementDestroy object="rectLock_Example_2" object-type="object"/>
+      <ifScore method="greater" method-type="" name="assessmentLesson_home_1" name-type="string" not="" not-type="" value="2" value-type="integer"/>
+      <elementDestroy object="imageLock_Example_2" object-type="object"/>
+      <setScore name="assessmentLesson_home_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+    </method>
+  <method name="doKeyDownX">
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+      <toast value="Ответы записаны." value-type="string"/>
+      <sleep sync="" sync-type="" value="1500" value-type="integer"/>
+      <toast value="Работа оценена." value-type="string"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_1" object-type="object" string="упорядоченое движение заряженных частиц" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_2" object-type="object" string="отрицательно заряженная частица" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_3" object-type="object" string="землей (GND, -)" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <ifText method="equals" method-type="" not="" not-type="" object="labelExample_1_exercise_page_1_Box_4" object-type="object" string="от большего потенциала к меньшему, от питания к земеле" string-type="string"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="1" value-type="integer"/>
+      <elementSetText object="form('Achievement')-&gt;labelMark_class_1" object-type="object" relative="" relative-type="" value="assessmentLesson_class_1" value-type="score"/>
+      <ifScore method="smaller" method-type="" name="assessmentLesson_class_1" name-type="string" not="" not-type="" value="3" value-type="integer"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="1" relative-type="" value="-5" value-type="integer"/>
+      <phpLine expr="$this-&gt;progressKnowledge-&gt;progress += Score::get('assessmentLesson_class_1');" expr-type="expr"/>
+      <phpLine expr="$this-&gt;ini-&gt;set('Lesson_class_1',$this-&gt;form('Achievement')-&gt;labelMark_class_1-&gt;text,'assessment');" expr-type="expr"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="labelLesson_1_information_unavailable" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="rectLesson_1_information_unavailable" object-type="object"/>
+      <jumpingToStart object="rectExample_1_information_to_start" object-type="object"/>
+      <jumpingToStart object="labelExample_1_information_to_start" object-type="object"/>
+      <jumpingToStart object="buttonExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="rectExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="labelExample_1_information_to_start" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="buttonExample_1_information_to_start" object-type="object"/>
+      <setScore name="assessmentLesson_class_1" name-type="string" relative="" relative-type="" value="1" value-type="integer"/>
+    </method>
+  <method name="doButtonExample_2_information_to_startMouseDownL">
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="rectLesson_1_information_unavailable" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="labelLesson_1_information_unavailable" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="buttonExample_1_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="labelExample_1_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="rectExample_1_information_to_start" object-type="object"/>
+      <jumpingTo object="rectExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="labelExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="buttonExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+    </method>
+  
+  <method name="doButtonExample_1_information_to_startMouseDownLeft">
+      <jumpingToStart object="rectLesson_1_information_unavailable" object-type="object"/>
+      <jumpingToStart object="labelLesson_1_information_unavailable" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="rectLesson_1_information_unavailable" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="labelLesson_1_information_unavailable" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="buttonExample_1_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="labelExample_1_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="rectExample_1_information_to_start" object-type="object"/>
+      <jumpingTo object="rectExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="labelExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="buttonExample_1_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+    </method>
+  <method name="doButtonExample_2_information_to_startMouseDownLeft">
+      <jumpingToStart object="rectLesson_2_information_unavailable" object-type="object"/>
+      <jumpingToStart object="labelLesson_2_information_unavailable" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="rectLesson_2_information_unavailable" object-type="object"/>
+      <fadeIn continue="" continue-type="" duration="0" duration-type="integer" object="labelLesson_2_information_unavailable" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="buttonExample_2_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="labelExample_2_information_to_start" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="rectExample_2_information_to_start" object-type="object"/>
+      <jumpingTo object="rectExample_2_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="labelExample_2_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+      <jumpingTo object="buttonExample_2_information_to_start" object-type="object" relative="" relative-type="" x="-5000" x-type="integer" y="-5000" y-type="integer"/>
+    </method>
+  
+  </class>
+</root>

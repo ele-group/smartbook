@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="Begin">
+    
+  
+  
+  
+  
+  
+  <method name="doButtonBegin_DoneMouseDownL">
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="form('Visual')" object-type="object"/>
+      <fadeOut continue="" continue-type="" duration="375" duration-type="integer" object="" object-type="object"/>
+      <loadForm form="Visual" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="375" duration-type="integer" object="form('Visual')" object-type="object"/>
+    </method>
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  
+  <method name="doImageButtonBegin_informationMouseDownLeft">
+      <toast value="Разработал - Вартанян Владимир Сергеевич" value-type="string"/>
+      <sleep sync="" sync-type="" value="2500" value-type="integer"/>
+      <toast value="Автор содержимого первых двух занятий - Шепелев Максим Сергеевич" value-type="string"/>
+    </method>
+  </class>
+</root>

@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<?import javafx.scene.*?><?import javafx.collections.*?><?import javafx.scene.layout.*?><?import javafx.scene.control.*?><?import javafx.scene.text.*?><?import javafx.scene.image.*?><?import javafx.scene.shape.*?><?import javafx.scene.paint.*?><?import javafx.scene.web.*?><?import javafx.geometry.*?><?import java.lang.*?><?import org.develnext.jphp.ext.javafx.classes.data.*?><?import org.develnext.jphp.ext.javafx.support.*?><?import org.develnext.jphp.ext.javafx.support.control.*?><?import org.develnext.jphp.ext.game.support.*?><AnchorPane xmlns="http://javafx.com/javafx/8" xmlns:fx="http://javafx.com/fxml/1" AnchorPane.bottomAnchor="0" AnchorPane.leftAnchor="0" AnchorPane.rightAnchor="0" AnchorPane.topAnchor="0" focusTraversable="false" id="" maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="720" prefWidth="1280" styleClass="">
+  <children>
+    <LabelEx alignment="CENTER" autoSize="false" contentDisplay="LEFT" ellipsisString="..." focusTraversable="false" graphicTextGap="4" id="labelName" layoutX="228" layoutY="334" prefHeight="39" prefWidth="824" styleClass="label " text="Smartbook" textAlignment="CENTER" textFill="#000000" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="46"/>
+      </font>
+    </LabelEx>
+    <Data cursor="DEFAULT" enabled="1" id="data-labelName" visible="1"/>
+    <Button alignment="CENTER" contentDisplay="LEFT" ellipsisString="..." focusTraversable="true" graphicTextGap="4" id="buttonBegin" layoutX="568" layoutY="416" opacity="0" prefHeight="32" prefWidth="144" styleClass="button " text="Начать" textAlignment="CENTER" underline="false" wrapText="false">
+      <font>
+        <Font name="Segoe UI" size="16"/>
+      </font>
+    </Button>
+    <Data cursor="HAND" enabled="1" id="data-buttonBegin" visible="1"/>
+    <ComboBox editable="true" focusTraversable="true" id="editTextbook" layoutX="568" layoutY="362" opacity="0" prefHeight="32" prefWidth="144" promptText="Название" styleClass="combo-box-base combo-box " value="" visibleRowCount="10">
+      <items xmlns:fx="http://javafx.com/fxml">
+        <FXCollections fx:factory="observableArrayList">
+          <String fx:value="Arduino"/>
+        </FXCollections>
+      </items>
+    </ComboBox>
+    <Data cursor="DEFAULT" enabled="1" id="data-editTextbook" visible="1"/>
+  </children>
+</AnchorPane>

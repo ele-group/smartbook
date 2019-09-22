@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<behaviours>
+  <target id="fragmentAchievement">
+    <behaviour autoplay="1" cacheScenes="" gravityDirection="DOWN" gravityType="ZERO" initialScene="Achievement" type="behaviour\custom\GameSceneBehaviour"/>
+  </target>
+  <target id="imageLesson_1_illustration_1">
+    <behaviour color="#e6e6e6" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLesson_1_illustration_2">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLesson_2_illustration_1">
+    <behaviour color="#e6e6e6" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLesson_2_illustration_2">
+    <behaviour brightness="1" contrast="0" enabled="" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+    <behaviour color="#e6e6e6" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLesson_2_illustration_3">
+    <behaviour color="#e6e6e6" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLesson_2_illustration_4">
+    <behaviour color="#e6e6e6" offsetX="0" offsetY="0" radius="2" spread="1" type="behaviour\custom\DropShadowEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLock_Lesson_2">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="imageLock_Example_2">
+    <behaviour brightness="1" contrast="0" hue="0" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+  <target id="progressKnowledge">
+    <behaviour brightness="0" contrast="0" hue="-0.5" saturation="0" type="behaviour\custom\ColorAdjustEffectBehaviour" when="ALWAYS"/>
+  </target>
+</behaviours>

@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<root>
+  <class name="MainForm">
+    
+  <method name="doShow">
+      <fadeTo continue="" continue-type="" duration="1000" duration-type="integer" object="form('Visual')" object-type="object" value="0.5" value-type="float"/>
+    </method>
+  <method name="doTimerStartingDest">
+      <fadeOut continue="" continue-type="" duration="500" duration-type="integer" object="" object-type="object"/>
+      <loadForm form="Visual" form-type="form" savePosition="" savePosition-type="" saveSize="" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="500" duration-type="integer" object="form('Visual')" object-type="object"/>
+    </method>
+  </class>
+<class name="Launch">
+    
+  
+  
+  
+  <method name="doTimerStartingDestroy">
+      <fadeOut continue="" continue-type="" duration="0" duration-type="integer" object="~senderForm" object-type="object"/>
+      <loadForm form="Begin" form-type="form" savePosition="1" savePosition-type="" saveSize="1" saveSize-type=""/>
+      <fadeIn continue="" continue-type="" duration="750" duration-type="integer" object="form('Begin')" object-type="object"/>
+    </method>
+  <method name="doShow">
+      <fadeOut continue="" continue-type="" duration="750" duration-type="integer" object="form('Begin')" object-type="object"/>
+    </method>
+  </class>
+</root>
